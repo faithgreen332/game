@@ -1,0 +1,819 @@
+[09:25:43,989] [INFO] ServerMain.main --> 服务器启动成功
+[09:30:58,766] [INFO] ServerMain.main --> 服务器启动成功
+[09:31:54,062] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg=
+[09:32:23,826] [INFO] ServerMain.main --> 服务器启动成功
+[09:32:42,103] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg=HttpObjectAggregator$AggregatedFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: CompositeByteBuf(ridx: 0, widx: 0, cap: 0, components=0))
+GET / HTTP/1.1
+Host: localhost:12345
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: "Google Chrome";v="89", "Chromium";v="89", ";Not A Brand";v="99"
+sec-ch-ua-mobile: ?0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+content-length: 0
+[09:32:58,032] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg=HttpObjectAggregator$AggregatedFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: CompositeByteBuf(ridx: 0, widx: 0, cap: 0, components=0))
+GET / HTTP/1.1
+Host: localhost:12345
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: "Google Chrome";v="89", "Chromium";v="89", ";Not A Brand";v="99"
+sec-ch-ua-mobile: ?0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+content-length: 0
+[09:35:53,245] [INFO] ServerMain.main --> 服务器启动成功
+[09:35:56,816] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= HttpObjectAggregator$AggregatedFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: CompositeByteBuf(ridx: 0, widx: 0, cap: 0, components=0))
+GET / HTTP/1.1
+Host: localhost:12345
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: "Google Chrome";v="89", "Chromium";v="89", ";Not A Brand";v="99"
+sec-ch-ua-mobile: ?0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+content-length: 0
+[09:37:45,251] [INFO] ServerMain.main --> 服务器启动成功
+[09:37:48,443] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= HttpObjectAggregator$AggregatedFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: CompositeByteBuf(ridx: 0, widx: 0, cap: 0, components=0))
+GET / HTTP/1.1
+Host: localhost:12345
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: "Google Chrome";v="89", "Chromium";v="89", ";Not A Brand";v="99"
+sec-ch-ua-mobile: ?0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+content-length: 0
+[11:53:42,005] [INFO] ServerMain.main --> 服务器启动成功
+[11:55:17,501] [INFO] ServerMain.main --> 服务器启动成功
+[11:56:55,195] [INFO] ServerMain.main --> 服务器启动成功
+[11:59:13,615] [INFO] ServerMain.main --> 服务器启动成功
+[11:59:20,022] [INFO] GameMsgDecoder.channelRead --> HttpObjectAggregator$AggregatedFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: CompositeByteBuf(ridx: 0, widx: 0, cap: 0, components=0))
+GET / HTTP/1.1
+Host: localhost:8080
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: "Google Chrome";v="89", "Chromium";v="89", ";Not A Brand";v="99"
+sec-ch-ua-mobile: ?0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+content-length: 0
+[11:59:58,807] [INFO] ServerMain.main --> 服务器启动成功
+[12:00:01,809] [INFO] GameMsgDecoder.channelRead --> HttpObjectAggregator$AggregatedFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: CompositeByteBuf(ridx: 0, widx: 0, cap: 0, components=0))
+GET / HTTP/1.1
+Host: localhost:8080
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: "Google Chrome";v="89", "Chromium";v="89", ";Not A Brand";v="99"
+sec-ch-ua-mobile: ?0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+content-length: 0
+[12:00:01,814] [ERROR] GameMsgDecoder.channelRead --> io.netty.handler.codec.http.HttpObjectAggregator$AggregatedFullHttpRequest incompatible with io.netty.handler.codec.http.websocketx.BinaryWebSocketFrame
+java.lang.ClassCastException: io.netty.handler.codec.http.HttpObjectAggregator$AggregatedFullHttpRequest incompatible with io.netty.handler.codec.http.websocketx.BinaryWebSocketFrame
+	at org.tinygame.herostory.GameMsgDecoder.channelRead(GameMsgDecoder.java:34)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:93)
+	at io.netty.handler.codec.http.websocketx.Utf8FrameValidator.channelRead(Utf8FrameValidator.java:77)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.handler.codec.http.websocketx.WebSocketServerProtocolHandshakeHandler.channelRead(WebSocketServerProtocolHandshakeHandler.java:74)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:438)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:326)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:300)
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:253)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1422)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:931)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:700)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:635)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:552)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:514)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1050)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:821)
+[12:04:21,335] [INFO] ServerMain.main --> 服务器启动成功
+[12:04:24,013] [INFO] GameMsgDecoder.channelRead --> HttpObjectAggregator$AggregatedFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: CompositeByteBuf(ridx: 0, widx: 0, cap: 0, components=0))
+GET / HTTP/1.1
+Host: localhost:8080
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: "Google Chrome";v="89", "Chromium";v="89", ";Not A Brand";v="99"
+sec-ch-ua-mobile: ?0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+content-length: 0
+[18:32:54,735] [INFO] ServerMain.main --> 服务器启动成功
+[18:34:23,554] [INFO] GameMsgDecoder.channelRead --> BinaryWebSocketFrame(data: PooledUnsafeDirectByteBuf(ridx: 0, widx: 19, cap: 19))
+[18:34:23,717] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= userId: 1
+heroAvatar: "Hero_Hammer"
+
+[18:34:23,718] [INFO] GameMsgDecoder.channelRead --> BinaryWebSocketFrame(data: PooledUnsafeDirectByteBuf(ridx: 0, widx: 4, cap: 4))
+[18:34:29,331] [INFO] GameMsgDecoder.channelRead --> BinaryWebSocketFrame(data: PooledUnsafeDirectByteBuf(ridx: 0, widx: 14, cap: 14))
+[18:34:32,227] [INFO] GameMsgDecoder.channelRead --> BinaryWebSocketFrame(data: PooledUnsafeDirectByteBuf(ridx: 0, widx: 14, cap: 14))
+[18:34:33,281] [INFO] GameMsgDecoder.channelRead --> BinaryWebSocketFrame(data: PooledUnsafeDirectByteBuf(ridx: 0, widx: 14, cap: 14))
+[18:34:34,024] [INFO] GameMsgDecoder.channelRead --> BinaryWebSocketFrame(data: PooledUnsafeDirectByteBuf(ridx: 0, widx: 14, cap: 14))
+[18:34:36,626] [INFO] GameMsgDecoder.channelRead --> BinaryWebSocketFrame(data: PooledUnsafeDirectByteBuf(ridx: 0, widx: 14, cap: 14))
+[18:34:38,061] [INFO] GameMsgDecoder.channelRead --> BinaryWebSocketFrame(data: PooledUnsafeDirectByteBuf(ridx: 0, widx: 14, cap: 14))
+[18:34:40,373] [INFO] GameMsgDecoder.channelRead --> BinaryWebSocketFrame(data: PooledUnsafeDirectByteBuf(ridx: 0, widx: 14, cap: 14))
+[18:34:41,383] [INFO] GameMsgDecoder.channelRead --> BinaryWebSocketFrame(data: PooledUnsafeDirectByteBuf(ridx: 0, widx: 14, cap: 14))
+[18:34:42,298] [INFO] GameMsgDecoder.channelRead --> BinaryWebSocketFrame(data: PooledUnsafeDirectByteBuf(ridx: 0, widx: 14, cap: 14))
+[18:34:43,024] [INFO] GameMsgDecoder.channelRead --> BinaryWebSocketFrame(data: PooledUnsafeDirectByteBuf(ridx: 0, widx: 14, cap: 14))
+[18:34:43,613] [INFO] GameMsgDecoder.channelRead --> BinaryWebSocketFrame(data: PooledUnsafeDirectByteBuf(ridx: 0, widx: 14, cap: 14))
+[18:34:44,263] [INFO] GameMsgDecoder.channelRead --> BinaryWebSocketFrame(data: PooledUnsafeDirectByteBuf(ridx: 0, widx: 14, cap: 14))
+[18:34:44,859] [INFO] GameMsgDecoder.channelRead --> BinaryWebSocketFrame(data: PooledUnsafeDirectByteBuf(ridx: 0, widx: 14, cap: 14))
+[18:34:45,496] [INFO] GameMsgDecoder.channelRead --> BinaryWebSocketFrame(data: PooledUnsafeDirectByteBuf(ridx: 0, widx: 14, cap: 14))
+[18:34:46,148] [INFO] GameMsgDecoder.channelRead --> BinaryWebSocketFrame(data: PooledUnsafeDirectByteBuf(ridx: 0, widx: 14, cap: 14))
+[18:35:01,110] [INFO] GameMsgDecoder.channelRead --> BinaryWebSocketFrame(data: PooledUnsafeDirectByteBuf(ridx: 0, widx: 14, cap: 14))
+[18:35:02,577] [INFO] GameMsgDecoder.channelRead --> BinaryWebSocketFrame(data: PooledUnsafeDirectByteBuf(ridx: 0, widx: 14, cap: 14))
+[18:35:27,642] [INFO] GameMsgDecoder.channelRead --> BinaryWebSocketFrame(data: PooledUnsafeDirectByteBuf(ridx: 0, widx: 14, cap: 14))
+[18:35:55,210] [INFO] GameMsgDecoder.channelRead --> BinaryWebSocketFrame(data: PooledUnsafeDirectByteBuf(ridx: 0, widx: 19, cap: 19))
+[18:35:55,210] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= userId: 2
+heroAvatar: "Hero_Shaman"
+
+[18:35:55,211] [INFO] GameMsgDecoder.channelRead --> BinaryWebSocketFrame(data: PooledUnsafeDirectByteBuf(ridx: 0, widx: 4, cap: 4))
+[18:35:56,553] [INFO] GameMsgDecoder.channelRead --> BinaryWebSocketFrame(data: PooledUnsafeDirectByteBuf(ridx: 0, widx: 14, cap: 14))
+[18:36:00,047] [INFO] GameMsgDecoder.channelRead --> BinaryWebSocketFrame(data: PooledUnsafeDirectByteBuf(ridx: 0, widx: 14, cap: 14))
+[18:36:00,581] [INFO] GameMsgDecoder.channelRead --> BinaryWebSocketFrame(data: PooledUnsafeDirectByteBuf(ridx: 0, widx: 14, cap: 14))
+[18:36:05,744] [INFO] GameMsgDecoder.channelRead --> BinaryWebSocketFrame(data: PooledUnsafeDirectByteBuf(ridx: 0, widx: 14, cap: 14))
+[18:36:06,526] [INFO] GameMsgDecoder.channelRead --> BinaryWebSocketFrame(data: PooledUnsafeDirectByteBuf(ridx: 0, widx: 14, cap: 14))
+[18:36:07,040] [INFO] GameMsgDecoder.channelRead --> BinaryWebSocketFrame(data: PooledUnsafeDirectByteBuf(ridx: 0, widx: 14, cap: 14))
+[18:36:07,559] [INFO] GameMsgDecoder.channelRead --> BinaryWebSocketFrame(data: PooledUnsafeDirectByteBuf(ridx: 0, widx: 14, cap: 14))
+[18:36:08,099] [INFO] GameMsgDecoder.channelRead --> BinaryWebSocketFrame(data: PooledUnsafeDirectByteBuf(ridx: 0, widx: 14, cap: 14))
+[18:36:08,579] [INFO] GameMsgDecoder.channelRead --> BinaryWebSocketFrame(data: PooledUnsafeDirectByteBuf(ridx: 0, widx: 14, cap: 14))
+[18:36:09,113] [INFO] GameMsgDecoder.channelRead --> BinaryWebSocketFrame(data: PooledUnsafeDirectByteBuf(ridx: 0, widx: 14, cap: 14))
+[21:31:22,427] [INFO] ServerMain.main --> 服务器启动成功
+[21:31:36,239] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= userId: 2
+heroAvatar: "Hero_Shaman"
+
+[21:31:36,247] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= 
+[21:31:57,624] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= userId: 1
+heroAvatar: "Hero_Hammer"
+
+[21:31:57,636] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= 
+[21:32:01,052] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -170.79755
+moveToPosY: -95.41104
+
+[21:32:01,587] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -321.57056
+moveToPosY: -62.429447
+
+[21:32:02,645] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -135.21602
+moveToPosY: -115.658585
+
+[21:32:03,289] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -177.70285
+moveToPosY: 18.545837
+
+[21:32:03,761] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: 10.453109
+moveToPosY: 71.822975
+
+[21:32:04,257] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -40.12645
+moveToPosY: -96.77555
+
+[21:32:06,731] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -93.055214
+moveToPosY: -155.09203
+
+[21:32:07,567] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -272.88342
+moveToPosY: 94.62577
+
+[21:32:08,295] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -400.88342
+moveToPosY: -88.34356
+
+[21:32:08,831] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -73.42331
+moveToPosY: -165.30061
+
+[21:32:09,386] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -175.5092
+moveToPosY: 103.2638
+
+[21:32:14,076] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= userId: 2
+heroAvatar: "Hero_Shaman"
+
+[21:32:14,077] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= 
+[21:32:15,196] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -208.72498
+moveToPosY: -63.055847
+
+[21:32:15,824] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -239.7471
+moveToPosY: 61.70706
+
+[21:32:16,614] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: 139.26237
+moveToPosY: 71.822975
+
+[21:32:17,167] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: 71.822975
+moveToPosY: -106.21707
+
+[21:32:17,743] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -129.14647
+moveToPosY: -88.68282
+
+[21:32:18,319] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -243.79347
+moveToPosY: 60.358273
+
+[21:32:18,811] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -92.054794
+moveToPosY: 121.728134
+
+[21:32:19,224] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: 106.891464
+moveToPosY: 103.51949
+
+[21:32:19,609] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: 10.453109
+moveToPosY: -81.26449
+
+[21:32:20,009] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -157.47102
+moveToPosY: -28.661749
+
+[21:32:20,413] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: 54.288727
+moveToPosY: 139.93678
+
+[21:32:20,852] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: 158.14542
+moveToPosY: 77.218124
+
+[21:32:21,311] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -32.03372
+moveToPosY: -96.77555
+
+[21:32:21,717] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -125.100105
+moveToPosY: 45.521603
+
+[21:32:58,519] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -226.55215
+moveToPosY: -71.06748
+
+[21:32:59,137] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -149.5951
+moveToPosY: -118.96932
+
+[21:32:59,956] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -18.453987
+moveToPosY: 7.4601226
+
+[21:33:00,479] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: 1.9631902
+moveToPosY: 5.8895707
+
+[21:33:00,860] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -231.26381
+moveToPosY: -8.2453985
+
+[21:33:01,305] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -246.18405
+moveToPosY: 82.84663
+
+[21:33:01,865] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -351.41104
+moveToPosY: -87.55828
+
+[21:33:02,272] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -161.37424
+moveToPosY: -148.80981
+
+[21:33:03,143] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -390.67484
+moveToPosY: -82.06135
+
+[21:33:03,609] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -379.68097
+moveToPosY: 34.944786
+
+[21:33:03,998] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -303.50922
+moveToPosY: 138.60123
+
+[21:33:04,334] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -149.5951
+moveToPosY: 180.22086
+
+[21:33:04,714] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -152.73619
+moveToPosY: -13.7423315
+
+[21:33:05,105] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -173.15338
+moveToPosY: -129.17792
+
+[21:33:05,501] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -380.46625
+moveToPosY: -108.760735
+
+[21:33:05,906] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -431.50922
+moveToPosY: -35.73006
+
+[21:33:06,299] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -394.60123
+moveToPosY: 64.0
+
+[21:33:06,676] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -244.6135
+moveToPosY: 142.5276
+
+[21:33:07,057] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -163.73006
+moveToPosY: -39.65644
+
+[21:33:07,479] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -402.45398
+moveToPosY: -108.760735
+
+[21:33:32,371] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= userId: 3
+heroAvatar: "Hero_Skeleton"
+
+[21:33:32,373] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= 
+[21:33:33,511] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -159.80368
+moveToPosY: -32.58896
+
+[21:33:34,080] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -305.07974
+moveToPosY: 6.6748466
+
+[21:33:34,573] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -305.07974
+moveToPosY: 77.34969
+
+[21:33:35,005] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -294.08588
+moveToPosY: -102.47853
+
+[21:33:36,127] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -124.466255
+moveToPosY: -83.631905
+
+[21:33:36,682] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -158.23312
+moveToPosY: 93.055214
+
+[21:33:37,164] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -74.20859
+moveToPosY: -123.680984
+
+[21:33:37,610] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: 143.31288
+moveToPosY: 46.723927
+
+[21:33:37,978] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: 28.662577
+moveToPosY: -111.90184
+
+[21:33:38,339] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -250.8957
+moveToPosY: -102.47853
+
+[21:33:38,720] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -244.6135
+moveToPosY: 87.55828
+
+[21:33:39,262] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -103.2638
+moveToPosY: 100.122696
+
+[21:33:39,588] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: 84.417175
+moveToPosY: 98.55215
+
+[21:33:39,908] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: 33.374233
+moveToPosY: -100.122696
+
+[21:33:40,228] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -172.3681
+moveToPosY: -111.11656
+
+[21:33:40,616] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -262.67484
+moveToPosY: 88.34356
+
+[21:33:40,919] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -47.5092
+moveToPosY: 148.02454
+
+[21:33:41,211] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: 170.01227
+moveToPosY: 117.39877
+
+[21:33:41,558] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: 54.576687
+moveToPosY: -111.90184
+
+[21:33:41,879] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -210.84662
+moveToPosY: -130.74846
+
+[21:33:42,219] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -252.46626
+moveToPosY: 96.19632
+
+[21:33:42,489] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -12.171779
+moveToPosY: 163.73006
+
+[21:33:42,768] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: 137.03067
+moveToPosY: 100.907974
+
+[21:33:43,049] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -12.957055
+moveToPosY: -111.11656
+
+[21:33:45,151] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -232.83435
+moveToPosY: 77.34969
+
+[21:33:45,703] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -222.62576
+moveToPosY: 140.95706
+
+[21:33:46,615] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -162.15952
+moveToPosY: -60.07362
+
+[21:33:47,125] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -269.74234
+moveToPosY: 4.3190184
+
+[21:33:47,542] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -217.12883
+moveToPosY: 98.55215
+
+[21:33:47,878] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: 60.858894
+moveToPosY: 133.1043
+
+[21:33:48,222] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: 131.53374
+moveToPosY: 43.58282
+
+[21:33:48,593] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: 97.76687
+moveToPosY: -70.28221
+
+[21:33:48,944] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -27.092024
+moveToPosY: -134.67485
+
+[21:33:49,237] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -151.16565
+moveToPosY: -98.55215
+
+[21:33:49,497] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -189.64417
+moveToPosY: -74.993866
+
+[21:33:49,756] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -214.77301
+moveToPosY: -54.576687
+
+[21:33:50,126] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -218.69939
+moveToPosY: 38.085888
+
+[21:33:50,463] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -127.60736
+moveToPosY: 112.68712
+
+[21:33:50,824] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: 104.83436
+moveToPosY: 130.74846
+
+[21:33:51,194] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: 115.042946
+moveToPosY: -12.171779
+
+[21:33:51,566] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: 89.12884
+moveToPosY: -73.42331
+
+[21:33:51,845] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -57.717793
+moveToPosY: -82.06135
+
+[21:33:52,126] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -161.37424
+moveToPosY: -36.51534
+
+[21:33:52,363] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -207.70552
+moveToPosY: -4.3190184
+
+[21:33:52,607] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -242.25768
+moveToPosY: 53.006134
+
+[21:33:52,827] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -166.87117
+moveToPosY: 99.337425
+
+[21:33:53,014] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: 4.3190184
+moveToPosY: 131.53374
+
+[21:33:53,205] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: 166.87117
+moveToPosY: 118.18405
+
+[21:33:53,407] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: 141.74232
+moveToPosY: 0.39263803
+
+[21:33:53,614] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: 84.417175
+moveToPosY: -89.91411
+
+[21:33:53,799] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -58.503067
+moveToPosY: -111.90184
+
+[21:33:53,975] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -220.26994
+moveToPosY: -79.70552
+
+[21:33:54,164] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -234.4049
+moveToPosY: -31.80368
+
+[21:34:29,812] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -44.172813
+moveToPosY: -107.56586
+
+[21:34:30,295] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: 166.23814
+moveToPosY: 34.056904
+
+[21:34:30,661] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: 210.07376
+moveToPosY: 108.24025
+
+[21:34:31,011] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -170.28452
+moveToPosY: 75.19494
+
+[21:34:31,326] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -223.56165
+moveToPosY: -29.336143
+
+[21:34:31,692] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -71.822975
+moveToPosY: -117.00738
+
+[21:53:28,381] [INFO] ServerMain.main --> 服务器启动成功
+[21:53:50,595] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= userId: 1
+heroAvatar: "Hero_Hammer"
+
+[21:53:50,610] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= 
+[21:54:07,368] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= userId: 2
+heroAvatar: "Hero_Shaman"
+
+[21:54:07,371] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= 
+[21:54:16,661] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -267.3865
+moveToPosY: -129.17792
+
+[21:54:25,856] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -99.47313
+moveToPosY: -106.891464
+
+[21:54:26,516] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: 64.40464
+moveToPosY: 77.218124
+
+[21:54:27,322] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -176.35405
+moveToPosY: 67.7766
+
+[21:54:27,758] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -64.40464
+moveToPosY: -100.821915
+
+[21:54:29,038] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -301.93866
+moveToPosY: 52.22086
+
+[21:54:29,666] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: 7.4601226
+moveToPosY: 96.19632
+
+[21:54:30,201] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: 83.631905
+moveToPosY: -106.40491
+
+[22:37:14,188] [INFO] ServerMain.main --> 服务器启动成功
+[22:37:36,907] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= userId: 2
+heroAvatar: "Hero_Shaman"
+
+[22:37:36,921] [ERROR] GameMsgEncoder.write --> 无法识别的消息类型，msgClazz = 
+[22:37:36,952] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= 
+[22:37:36,964] [ERROR] GameMsgEncoder.write --> 无法识别的消息类型，msgClazz = 
+[22:38:00,016] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= userId: 1
+heroAvatar: "Hero_Hammer"
+
+[22:38:00,021] [ERROR] GameMsgEncoder.write --> 无法识别的消息类型，msgClazz = 
+[22:38:00,022] [ERROR] GameMsgEncoder.write --> 无法识别的消息类型，msgClazz = 
+[22:38:00,029] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= 
+[22:38:00,031] [ERROR] GameMsgEncoder.write --> 无法识别的消息类型，msgClazz = 
+[22:38:03,393] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -183.77238
+moveToPosY: -91.3804
+
+[22:38:03,401] [ERROR] GameMsgEncoder.write --> 无法识别的消息类型，msgClazz = 
+[22:38:03,408] [ERROR] GameMsgEncoder.write --> 无法识别的消息类型，msgClazz = 
+[22:38:04,033] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -232.32877
+moveToPosY: 50.24236
+
+[22:38:04,034] [ERROR] GameMsgEncoder.write --> 无法识别的消息类型，msgClazz = 
+[22:38:04,034] [ERROR] GameMsgEncoder.write --> 无法识别的消息类型，msgClazz = 
+[22:38:04,557] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: 7.7555323
+moveToPosY: 92.054794
+
+[22:38:04,558] [ERROR] GameMsgEncoder.write --> 无法识别的消息类型，msgClazz = 
+[22:38:04,558] [ERROR] GameMsgEncoder.write --> 无法识别的消息类型，msgClazz = 
+[22:38:05,026] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -2.3603795
+moveToPosY: -74.520546
+
+[22:38:05,027] [ERROR] GameMsgEncoder.write --> 无法识别的消息类型，msgClazz = 
+[22:38:05,027] [ERROR] GameMsgEncoder.write --> 无法识别的消息类型，msgClazz = 
+[22:38:05,437] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -201.98103
+moveToPosY: -79.24131
+
+[22:38:05,438] [ERROR] GameMsgEncoder.write --> 无法识别的消息类型，msgClazz = 
+[22:38:05,438] [ERROR] GameMsgEncoder.write --> 无法识别的消息类型，msgClazz = 
+[22:39:48,249] [INFO] ServerMain.main --> 服务器启动成功
+[22:40:34,610] [INFO] ServerMain.main --> 服务器启动成功
+[22:41:50,307] [INFO] ServerMain.main --> 服务器启动成功
+[22:42:37,603] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= userId: 1
+heroAvatar: "Hero_Hammer"
+
+[22:42:37,633] [ERROR] GameMsgEncoder.write --> 无法识别的消息类型，msgClazz = 
+[22:42:37,638] [ERROR] GameMsgEncoder.write --> 无法识别的消息类型，msgClazz = 
+[22:42:37,663] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= 
+[22:42:37,682] [ERROR] GameMsgEncoder.write --> 无法识别的消息类型，msgClazz = 
+[22:42:44,679] [ERROR] GameMsgEncoder.write --> 无法识别的消息类型，msgClazz = 
+[22:43:49,694] [INFO] ServerMain.main --> 服务器启动成功
+[22:44:02,297] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= userId: 2
+heroAvatar: "Hero_Shaman"
+
+[22:44:02,302] [ERROR] GameMsgEncoder.write --> 无法识别的消息类型，msgClazz = 
+[22:44:02,312] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= 
+[22:44:02,317] [ERROR] GameMsgEncoder.write --> 无法识别的消息类型，msgClazz = 
+[22:59:47,498] [INFO] ServerMain.main --> 服务器启动成功
+[23:00:05,755] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= userId: 2
+heroAvatar: "Hero_Shaman"
+
+[23:00:05,781] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= 
+[23:00:19,794] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= userId: 1
+heroAvatar: "Hero_Hammer"
+
+[23:00:19,796] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= 
+[23:00:20,972] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -208.05058
+moveToPosY: -125.100105
+
+[23:00:21,460] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -304.48892
+moveToPosY: 16.522655
+
+[23:00:21,831] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -241.09589
+moveToPosY: 88.68282
+
+[23:00:22,726] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -133.11476
+moveToPosY: -107.540985
+
+[23:00:23,092] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -404.59015
+moveToPosY: -112.78689
+
+[23:00:23,448] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: 35.409836
+moveToPosY: 59.67213
+
+[23:00:23,781] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: 86.55738
+moveToPosY: 6.557377
+
+[23:09:30,608] [INFO] ServerMain.main --> 服务器启动成功
+[23:09:49,246] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= userId: 2
+heroAvatar: "Hero_Shaman"
+
+[23:09:49,270] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= 
+[23:10:01,791] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= userId: 1
+heroAvatar: "Hero_Hammer"
+
+[23:10:01,797] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= 
+[23:10:02,746] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -233.00316
+moveToPosY: -81.26449
+
+[23:10:03,176] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -302.46576
+moveToPosY: 39.452053
+
+[23:10:09,081] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -171.6333
+moveToPosY: -27.312962
+
+[23:10:09,559] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -210.74815
+moveToPosY: -121.728134
+
+[23:10:11,383] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -197.93466
+moveToPosY: -14.499474
+
+[23:10:11,781] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -355.7429
+moveToPosY: 77.218124
+
+[23:10:12,162] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -34.731297
+moveToPosY: 115.658585
+
+[23:10:12,488] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: 3.0347733
+moveToPosY: -0.33719704
+
+[23:10:12,790] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -146.68071
+moveToPosY: -99.47313
+
+[23:10:13,027] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -324.04636
+moveToPosY: -6.406744
+
+[23:24:28,344] [INFO] ServerMain.main --> 服务器启动成功
+[23:24:41,206] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= userId: 2
+heroAvatar: "Hero_Shaman"
+
+[23:24:41,239] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= 
+[23:24:49,529] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= userId: 1
+heroAvatar: "Hero_Hammer"
+
+[23:24:49,560] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= 
+[23:24:50,279] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -309.2097
+moveToPosY: -59.009483
+
+[23:24:50,610] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -353.7197
+moveToPosY: 55.637512
+
+[23:24:50,940] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -353.04532
+moveToPosY: 105.54268
+
+[23:24:51,246] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -346.30136
+moveToPosY: -66.42782
+
+[23:24:54,357] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -150.72708
+moveToPosY: 143.98314
+
+[23:24:54,755] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: 102.8451
+moveToPosY: 71.822975
+
+[23:24:55,033] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: 41.47524
+moveToPosY: -27.312962
+
+[23:37:16,126] [INFO] ServerMain.main --> 服务器启动成功
+[23:37:45,506] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= userId: 2
+heroAvatar: "Hero_Shaman"
+
+[23:37:45,533] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= 
+[23:37:53,409] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= userId: 1
+heroAvatar: "Hero_Hammer"
+
+[23:37:53,417] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= 
+[23:37:53,952] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -273.4668
+moveToPosY: -90.03161
+
+[23:37:54,280] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -327.41833
+moveToPosY: -3.0347733
+
+[23:37:54,655] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: 53.61433
+moveToPosY: 88.00843
+
+[23:37:54,958] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: 109.58904
+moveToPosY: -23.94099
+
+[23:37:56,772] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -450.15805
+moveToPosY: 6.406744
+
+[23:37:57,155] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -444.0885
+moveToPosY: -123.75132
+
+[23:37:57,477] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -328.76712
+moveToPosY: -151.40147
+
+[23:37:57,763] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -125.7745
+moveToPosY: -167.58693
+
+[23:52:16,992] [INFO] ServerMain.main --> 服务器启动成功
+[23:52:31,048] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= userId: 2
+heroAvatar: "Hero_Shaman"
+
+[23:52:31,121] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= 
+[23:52:38,724] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= userId: 1
+heroAvatar: "Hero_Hammer"
+
+[23:52:38,734] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= 
+[23:52:39,527] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -239.07271
+moveToPosY: -98.79874
+
+[23:52:39,894] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -253.90938
+moveToPosY: 99.47313
+
+[23:52:42,483] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -199.28346
+moveToPosY: -56.31191
+
+[23:52:43,064] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -319.3256
+moveToPosY: 128.47208
+
+[23:52:46,356] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -512.8767
+moveToPosY: -104.193886
+
+[23:52:49,354] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -257.95575
+moveToPosY: 30.68493
+
+[23:52:49,820] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -198.60905
+moveToPosY: -25.964172
+
+[23:57:23,240] [INFO] ServerMain.main --> 服务器启动成功
+[23:58:00,399] [INFO] ServerMain.main --> 服务器启动成功
+[23:58:09,373] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= userId: 2
+heroAvatar: "Hero_Shaman"
+
+[23:58:09,390] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= 
+[23:58:17,172] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= userId: 1
+heroAvatar: "Hero_Hammer"
+
+[23:58:17,186] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= 
+[23:58:17,802] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -373.95154
+moveToPosY: -52.939938
+
+[23:58:18,142] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -401.60168
+moveToPosY: 46.870388
+
+[23:58:20,189] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -282.23392
+moveToPosY: -100.14752
+
+[23:58:20,646] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -340.2318
+moveToPosY: -181.7492
+
+[23:58:20,938] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= moveToPosX: -137.2392
+moveToPosY: 21.243414
+

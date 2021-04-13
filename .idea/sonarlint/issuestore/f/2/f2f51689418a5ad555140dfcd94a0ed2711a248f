@@ -1,0 +1,433 @@
+
+l	java:S116ç'"VRename this field "quitUserId_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›óƒ
+]
+java:S1126Ó"AReplace this if-then-else statement by a single return statement.(®Èäîÿÿÿÿÿ
+D
+java:S1199½8"-Extract this nested code block into a method.(­Ó–Ô
+s	java:S116 @"XRename this field "targetUserId_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã‚ò®ûÿÿÿÿ
+?	java:S108™")Either remove or fill this block of code.(º„ç½
+?
+java:S1185Ö-"(Remove this method to simply inherit it.(¿¸Ú©
+?
+java:S1185æ?"(Remove this method to simply inherit it.(§ß—¡
+x
+java:S4144å"aUpdate this method so that its implementation is not identical to "getUserInfoList" on line 2906.(ÆÅ¡¨
+s	java:S116ÌD"XRename this field "targetUserId_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã‚ò®ûÿÿÿÿ
+?
+java:S1185%"(Remove this method to simply inherit it.(§ß—¡
+?
+java:S1185™"(Remove this method to simply inherit it.(¿¸Ú©
+l	java:S116Ê%"VRename this field "moveUserId_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŒÔÌë
+o
+java:S2975Ë6"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(Îõ¾Òûÿÿÿÿ
+K
+java:S1481ğ"4Remove this unused "from_bitField0_" local variable.(ÆÓ¡€
+?
+java:S1185§"(Remove this method to simply inherit it.(§ß—¡
+I
+java:S1199ö"-Extract this nested code block into a method.(Î—­Šşÿÿÿÿ
+D
+java:S1185›"(Remove this method to simply inherit it.(»¤Å“ûÿÿÿÿ
+u
+java:S1488²C"_Immediately return this expression instead of assigning it to the temporary variable "builder".(«‰Ÿ~
+D
+java:S1185Î"(Remove this method to simply inherit it.(Ã•Œƒüÿÿÿÿ
+Z
+java:S1854ğ"CRemove this useless assignment to local variable "from_bitField0_".(ÆÓ¡€
+D
+java:S1199"-Extract this nested code block into a method.(…ß¾£
+o
+java:S2975Ò?"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(Îõ¾Òûÿÿÿÿ
+D
+java:S1185ğ)"(Remove this method to simply inherit it.(»¤Å“ûÿÿÿÿ
+D
+java:S1185‰"(Remove this method to simply inherit it.(Ã•Œƒüÿÿÿÿ
+I
+java:S1199ìA"-Extract this nested code block into a method.(Î—­Šşÿÿÿÿ
+k	java:S116à"URename this field "bitField0_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö»³Ä
+l	java:S116ñ"VRename this field "heroAvatar_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ò”ø¯
+q	java:S116å""VRename this field "moveToPosY_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…‚ª˜ùÿÿÿÿ
+€
+java:S4144è3"dUpdate this method so that its implementation is not identical to "getDefaultInstance" on line 6607.(åğááøÿÿÿÿ
+s	java:S116Â="XRename this field "targetUserId_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã‚ò®ûÿÿÿÿ
+€
+java:S4144‚"dUpdate this method so that its implementation is not identical to "getDefaultInstance" on line 2025.(“„¨İùÿÿÿÿ
+J
+java:S1172	"/Remove this unused method parameter "registry".(•óÊõÿÿÿÿÿ
+?
+java:S1185…2"(Remove this method to simply inherit it.(¿¸Ú©
+D
+java:S1199œ="-Extract this nested code block into a method.(İ…î½
+m	java:S116“"RRename this field "userId_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼ÔÉÜúÿÿÿÿ
+D
+java:S1199•/"-Extract this nested code block into a method.(ÜØ¯ì
+l	java:S116Ğ="VRename this field "subtractHp_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(º½óÄ
+D
+java:S1185×
+"(Remove this method to simply inherit it.(Ã•Œƒüÿÿÿÿ
+l	java:S116æ2"VRename this field "stopAtPosX_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†Ã·Ç
+D
+java:S1185ˆ%"(Remove this method to simply inherit it.(»¤Å“ûÿÿÿÿ
+q	java:S116&"VRename this field "moveToPosY_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…‚ª˜ùÿÿÿÿ
+l	java:S116¼2"VRename this field "stopUserId_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áğÌ
+D
+java:S1185ï1"(Remove this method to simply inherit it.(ÑÍ“Ëûÿÿÿÿ
+q	java:S116è8"VRename this field "attkUserId_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°Ø¢şùÿÿÿÿ
+?	java:S108—-")Either remove or fill this block of code.(º„ç½
+]
+java:S1126ÉB"AReplace this if-then-else statement by a single return statement.(®Èäîÿÿÿÿÿ
+{
+java:S4144È<"dUpdate this method so that its implementation is not identical to "getDefaultInstance" on line 7727.(´ƒÚ„
+D
+java:S1185ú1"(Remove this method to simply inherit it.(»¤Å“ûÿÿÿÿ
+?
+java:S1185õ)"(Remove this method to simply inherit it.(§ß—¡
+?
+java:S1185ç
+"(Remove this method to simply inherit it.(¿¸Ú©
+l	java:S116É"VRename this field "moveToPosX_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢ûÖè
+n
+java:S3077ñ"WUse a thread-safe type; adding "volatile" is not enough to make this field thread-safe.(Ò”ø¯
+]
+java:S1126×"AReplace this if-then-else statement by a single return statement.(®Èäîÿÿÿÿÿ
+?	java:S108¹")Either remove or fill this block of code.(º„ç½
+?	java:S108£6")Either remove or fill this block of code.(º„ç½
+€
+java:S4144À!"dUpdate this method so that its implementation is not identical to "getDefaultInstance" on line 4263.(°¿´·ÿÿÿÿÿ
+l	java:S116½"VRename this field "heroAvatar_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†ü£Ò
+?
+java:S1185“"(Remove this method to simply inherit it.(§ß—¡
+?
+java:S1185Œ;"(Remove this method to simply inherit it.(§ß—¡
+D
+java:S1185ƒ"(Remove this method to simply inherit it.(ÑÍ“Ëûÿÿÿÿ
+m	java:S116œ"RRename this field "userId_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼ÔÉÜúÿÿÿÿ
+?
+java:S1185›D"(Remove this method to simply inherit it.(¿¸Ú©
+?
+java:S1185û)"(Remove this method to simply inherit it.(¿¸Ú©
+Q
+java:S1133•"5Do not forget to remove this deprecated code someday.(‡Â‚†øÿÿÿÿ
+{
+java:S4144Ô"dUpdate this method so that its implementation is not identical to "getDefaultInstance" on line 1595.(Ğéş„
+g	java:S117ğ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆÓ¡€
+D
+java:S1185Ú6"(Remove this method to simply inherit it.(»¤Å“ûÿÿÿÿ
+c
+java:S1192ŸF"GDefine a constant instead of duplicating this literal "UserId" 3 times.(»åúŸüÿÿÿÿ
+i
+java:S1192ÛF"MDefine a constant instead of duplicating this literal "TargetUserId" 4 times.(ú¸Ğãıÿÿÿÿ
+D
+java:S1199ù"-Extract this nested code block into a method.(ò‘
+l	java:S116»/"VRename this field "stopUserId_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áğÌ
+D
+java:S1185Ü
+"(Remove this method to simply inherit it.(»¤Å“ûÿÿÿÿ
+]
+java:S1126‡"AReplace this if-then-else statement by a single return statement.(®Èäîÿÿÿÿÿ
+n
+java:S3776¨"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(ı™°‚øÿÿÿÿ
+u
+java:S1488î,"_Immediately return this expression instead of assigning it to the temporary variable "builder".(«‰Ÿ~
+?	java:S108¹)")Either remove or fill this block of code.(º„ç½
+D
+java:S1199ğ"-Extract this nested code block into a method.(ò‘
+u
+java:S1488€?"_Immediately return this expression instead of assigning it to the temporary variable "builder".(«‰Ÿ~
+?	java:S108è")Either remove or fill this block of code.(º„ç½
+I
+java:S1199ë"-Extract this nested code block into a method.(ê×Êüÿÿÿÿ
+I
+java:S1199Á+"-Extract this nested code block into a method.(Î—­Šşÿÿÿÿ
+D
+java:S1185î"(Remove this method to simply inherit it.(Ã•Œƒüÿÿÿÿ
+I
+java:S1199""-Extract this nested code block into a method.(•€Éœıÿÿÿÿ
+D
+java:S1185‚;"(Remove this method to simply inherit it.(Ã•Œƒüÿÿÿÿ
+s	java:S116ğ;"XRename this field "targetUserId_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã‚ò®ûÿÿÿÿ
+I
+java:S1199š/"-Extract this nested code block into a method.(Î—­Šşÿÿÿÿ
+o
+java:S2975Œ"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(Îõ¾Òûÿÿÿÿ
+D
+java:S1185‹D"(Remove this method to simply inherit it.(Ã•Œƒüÿÿÿÿ
+q	java:S116Û"VRename this field "moveToPosY_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…‚ª˜ùÿÿÿÿ
+I
+java:S1199¨"-Extract this nested code block into a method.(Î—­Šşÿÿÿÿ
+€
+java:S4144Ë"dUpdate this method so that its implementation is not identical to "getDefaultInstance" on line 2866.(ß¼Çºûÿÿÿÿ
+o
+java:S2975Í
+"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(Îõ¾Òûÿÿÿÿ
+D
+java:S1199Á'"-Extract this nested code block into a method.(­Ó–Ô
+o
+java:S2975“"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(Îõ¾Òûÿÿÿÿ
+]
+java:S1126£("AReplace this if-then-else statement by a single return statement.(®Èäîÿÿÿÿÿ
+q	java:S116è "VRename this field "moveToPosY_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…‚ª˜ùÿÿÿÿ
+l	java:S116É/"VRename this field "stopAtPosX_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†Ã·Ç
+z
+java:S4144ö&"dUpdate this method so that its implementation is not identical to "getDefaultInstance" on line 4957.(Õ ¢
+E
+java:S1940ì")Use the opposite operator ("==") instead.(«‹¦œøÿÿÿÿ
+n
+java:S3077®"WUse a thread-safe type; adding "volatile" is not enough to make this field thread-safe.(Ò”ø¯
+?	java:S108ç")Either remove or fill this block of code.(º„ç½
+l	java:S116®"VRename this field "heroAvatar_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ò”ø¯
+D
+java:S1185õ1"(Remove this method to simply inherit it.(Ã•Œƒüÿÿÿÿ
+?
+java:S1185 "(Remove this method to simply inherit it.(§ß—¡
+u
+java:S1488û	"_Immediately return this expression instead of assigning it to the temporary variable "builder".(«‰Ÿ~
+I
+java:S1199¡="-Extract this nested code block into a method.(Î—­Šşÿÿÿÿ
+k	java:S1163"VRename this field "stopAtPosY_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘à½W
+l	java:S116¬*"VRename this field "quitUserId_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›óƒ
+<
+java:S1452¬"&Remove usage of generic wildcard type.(©Å—
+m	java:S116 "RRename this field "userId_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼ÔÉÜúÿÿÿÿ
+]
+java:S1126•>"AReplace this if-then-else statement by a single return statement.(®Èäîÿÿÿÿÿ
+?	java:S108§?")Either remove or fill this block of code.(º„ç½
+D
+java:S1199ô"-Extract this nested code block into a method.(­Ó–Ô
+z
+java:S4144š"cUpdate this method so that its implementation is not identical to "getDefaultInstance" on line 897.(¢äÍš
+p
+java:S2293æ"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÜÅ—Ú
+q	java:S116Æ;"VRename this field "attkUserId_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°Ø¢şùÿÿÿÿ
+D
+java:S1185D"(Remove this method to simply inherit it.(»¤Å“ûÿÿÿÿ
+o
+java:S2975D"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(Îõ¾Òûÿÿÿÿ
+I
+java:S1199Â"-Extract this nested code block into a method.(Î—­Šşÿÿÿÿ
+?
+java:S1185¦"(Remove this method to simply inherit it.(¿¸Ú©
+D
+java:S1185È"(Remove this method to simply inherit it.(ÑÍ“Ëûÿÿÿÿ
+g
+java:S1192ŸF"KDefine a constant instead of duplicating this literal "HeroAvatar" 3 times.(»åúŸüÿÿÿÿ
+?
+java:S1185“%"(Remove this method to simply inherit it.(¿¸Ú©
+?
+java:S1185­"(Remove this method to simply inherit it.(¿¸Ú©
+D
+java:S1185å)"(Remove this method to simply inherit it.(ÑÍ“Ëûÿÿÿÿ
+D
+java:S1185ë)"(Remove this method to simply inherit it.(Ã•Œƒüÿÿÿÿ
+D
+java:S1199çA"-Extract this nested code block into a method.(­Ó–Ô
+s	java:S116ö8"XRename this field "targetUserId_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã‚ò®ûÿÿÿÿ
+m	java:S116ã"RRename this field "userId_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼ÔÉÜúÿÿÿÿ
+?
+java:S1185Ø"(Remove this method to simply inherit it.(§ß—¡
+s	java:S116Õ4"XRename this field "targetUserId_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã‚ò®ûÿÿÿÿ
+D
+java:S1199Â8"-Extract this nested code block into a method.(İ…î½
+D
+java:S1185Ó"(Remove this method to simply inherit it.(»¤Å“ûÿÿÿÿ
+D
+java:S1199£""-Extract this nested code block into a method.(ÜØ¯ì
+o
+java:S2975¼-"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(Îõ¾Òûÿÿÿÿ
+]
+java:S1126§0"AReplace this if-then-else statement by a single return statement.(®Èäîÿÿÿÿÿ
+]
+java:S1126µ#"AReplace this if-then-else statement by a single return statement.(®Èäîÿÿÿÿÿ
+D
+java:S1185Ï6"(Remove this method to simply inherit it.(ÑÍ“Ëûÿÿÿÿ
+D
+java:S1185Õ6"(Remove this method to simply inherit it.(Ã•Œƒüÿÿÿÿ
+n
+java:S3077¥"WUse a thread-safe type; adding "volatile" is not enough to make this field thread-safe.(Ò”ø¯
+u
+java:S2293í"YReplace the type specification in this constructor call with the diamond operator ("<>").(”–¸”ûÿÿÿÿ
+D
+java:S1185è"(Remove this method to simply inherit it.(ÑÍ“Ëûÿÿÿÿ
+D
+java:S1199—="-Extract this nested code block into a method.(­Ó–Ô
+l	java:S116Æ"VRename this field "heroAvatar_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†ü£Ò
+D
+java:S1185"(Remove this method to simply inherit it.(»¤Å“ûÿÿÿÿ
+?
+java:S1185ş"(Remove this method to simply inherit it.(¿¸Ú©
+?	java:S108ÙC")Either remove or fill this block of code.(º„ç½
+D
+java:S1185ü:"(Remove this method to simply inherit it.(ÑÍ“Ëûÿÿÿÿ
+m	java:S116â"RRename this field "userId_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼ÔÉÜúÿÿÿÿ
+]
+java:S1126¢"AReplace this if-then-else statement by a single return statement.(®Èäîÿÿÿÿÿ
+?
+java:S1185å6"(Remove this method to simply inherit it.(¿¸Ú©
+b
+java:S1301"KReplace this "switch" statement by "if" statements to increase readability.(¹ŠÒÓ
+u
+java:S1488¢"_Immediately return this expression instead of assigning it to the temporary variable "builder".(«‰Ÿ~
+D
+java:S1185¢"(Remove this method to simply inherit it.(»¤Å“ûÿÿÿÿ
+u
+java:S1488"_Immediately return this expression instead of assigning it to the temporary variable "builder".(«‰Ÿ~
+u
+java:S1488¦:"_Immediately return this expression instead of assigning it to the temporary variable "builder".(«‰Ÿ~
+l	java:S116Œ"VRename this field "heroAvatar_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†ü£Ò
+?
+java:S1185á
+"(Remove this method to simply inherit it.(§ß—¡
+I
+java:S1199Æ'"-Extract this nested code block into a method.(Î—­Šşÿÿÿÿ
+b
+java:S1301½+"KReplace this "switch" statement by "if" statements to increase readability.(¹ŠÒÓ
+?
+java:S1185ß6"(Remove this method to simply inherit it.(§ß—¡
+œ
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ƒ°‡ıÿÿÿÿ
+o
+java:S2975ä"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(Îõ¾Òûÿÿÿÿ
+D
+java:S1185Æ-"(Remove this method to simply inherit it.(Ã•Œƒüÿÿÿÿ
+I
+java:S1199ô"-Extract this nested code block into a method.(Î—­Šşÿÿÿÿ
+k	java:S116×/"VRename this field "stopAtPosY_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘à½W
+u
+java:S1488¾"_Immediately return this expression instead of assigning it to the temporary variable "builder".(«‰Ÿ~
+D
+java:S1199¯4"-Extract this nested code block into a method.(­Ó–Ô
+l	java:S116¥"VRename this field "heroAvatar_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ò”ø¯
+{
+java:S4144î7"dUpdate this method so that its implementation is not identical to "getDefaultInstance" on line 7125.(¿Ï
+o
+java:S2975ø:"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(Îõ¾Òûÿÿÿÿ
+@
+java:S1940å")Use the opposite operator ("==") instead.(¦ÁÕ“
+I
+java:S1199ÿ"-Extract this nested code block into a method.(Î—­Šşÿÿÿÿ
+u
+java:S1488Œ)"_Immediately return this expression instead of assigning it to the temporary variable "builder".(«‰Ÿ~
+?	java:S108¢
+")Either remove or fill this block of code.(º„ç½
+u
+java:S1488ú5"_Immediately return this expression instead of assigning it to the temporary variable "builder".(«‰Ÿ~
+o
+java:S2975Ä"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(Îõ¾Òûÿÿÿÿ
+D
+java:S1185"(Remove this method to simply inherit it.(ÑÍ“Ëûÿÿÿÿ
+?
+java:S1185ø"(Remove this method to simply inherit it.(§ß—¡
+€
+java:S4144²."dUpdate this method so that its implementation is not identical to "getDefaultInstance" on line 5913.(åŠÇìıÿÿÿÿ
+I
+java:S1199Ç8"-Extract this nested code block into a method.(Î—­Šşÿÿÿÿ
+m	java:S116—"RRename this field "userId_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼ÔÉÜúÿÿÿÿ
+?	java:S108½1")Either remove or fill this block of code.(º„ç½
+{
+java:S4144¤E"dUpdate this method so that its implementation is not identical to "getDefaultInstance" on line 8843.(òÉ÷•
+D
+java:S1185…D"(Remove this method to simply inherit it.(ÑÍ“Ëûÿÿÿÿ
+g	java:S117à"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß”â¢
+D
+java:S1185ó"(Remove this method to simply inherit it.(»¤Å“ûÿÿÿÿ
+]
+java:S1126‡,"AReplace this if-then-else statement by a single return statement.(®Èäîÿÿÿÿÿ
+D
+java:S1185á?"(Remove this method to simply inherit it.(»¤Å“ûÿÿÿÿ
+D
+java:S1185–"(Remove this method to simply inherit it.(Ã•Œƒüÿÿÿÿ
+I
+java:S1199£"-Extract this nested code block into a method.(•€Éœıÿÿÿÿ
+o	java:S116â"TRename this field "userInfo_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İ¾ñ¨ÿÿÿÿÿ
+€
+java:S4144È"dUpdate this method so that its implementation is not identical to "getDefaultInstance" on line 3631.(È‹Ù¿úÿÿÿÿ
+]
+java:S1126·"AReplace this if-then-else statement by a single return statement.(®Èäîÿÿÿÿÿ
+D
+java:S1185Ö?"(Remove this method to simply inherit it.(ÑÍ“Ëûÿÿÿÿ
+?	java:S108Í:")Either remove or fill this block of code.(º„ç½
+o
+java:S2975á)"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(Îõ¾Òûÿÿÿÿ
+u
+java:S1488¤$"_Immediately return this expression instead of assigning it to the temporary variable "builder".(«‰Ÿ~
+D
+java:S1185Ë-"(Remove this method to simply inherit it.(»¤Å“ûÿÿÿÿ
+]
+java:S1126	"AReplace this if-then-else statement by a single return statement.(®Èäîÿÿÿÿÿ
+s	java:S116B"XRename this field "targetUserId_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã‚ò®ûÿÿÿÿ
+l	java:S116Ê@"VRename this field "subtractHp_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(º½óÄ
+i	java:S116Ò"TRename this field "userInfo_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Òï¨i
+D
+java:S1199¼"-Extract this nested code block into a method.(ò‘
+D
+java:S1185ı$"(Remove this method to simply inherit it.(ÑÍ“Ëûÿÿÿÿ
+u
+java:S1488–1"_Immediately return this expression instead of assigning it to the temporary variable "builder".(«‰Ÿ~
+]
+java:S1126»9"AReplace this if-then-else statement by a single return statement.(®Èäîÿÿÿÿÿ
+I
+java:S1199¨""-Extract this nested code block into a method.(Î—­Šşÿÿÿÿ
+D
+java:S1185—"(Remove this method to simply inherit it.(ÑÍ“Ëûÿÿÿÿ
+D
+java:S1185‡;"(Remove this method to simply inherit it.(»¤Å“ûÿÿÿÿ
+€
+java:S4144¢A"dUpdate this method so that its implementation is not identical to "getDefaultInstance" on line 8329.(éŞÍøÿÿÿÿ
+€
+java:S4144„+"dUpdate this method so that its implementation is not identical to "getDefaultInstance" on line 5483.(ò¬ÜÔùÿÿÿÿ
+l	java:S116² "VRename this field "moveToPosX_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢ûÖè
+l	java:S116ô%"VRename this field "moveToPosX_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢ûÖè
+I
+java:S1199´4"-Extract this nested code block into a method.(Î—­Šşÿÿÿÿ
+l	java:S116É""VRename this field "moveUserId_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŒÔÌë
+o
+java:S2975ù$"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(Îõ¾Òûÿÿÿÿ
+?
+java:S1185Ğ-"(Remove this method to simply inherit it.(§ß—¡
+]
+java:S1126‘5"AReplace this if-then-else statement by a single return statement.(®Èäîÿÿÿÿÿ
+?
+java:S1185’;"(Remove this method to simply inherit it.(¿¸Ú©
+?
+java:S1185ì?"(Remove this method to simply inherit it.(¿¸Ú©
+?
+java:S1185Ş"(Remove this method to simply inherit it.(¿¸Ú©
+D
+java:S1185À-"(Remove this method to simply inherit it.(ÑÍ“Ëûÿÿÿÿ
+?	java:S108Ë$")Either remove or fill this block of code.(º„ç½
+o
+java:S2975ë1"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(Îõ¾Òûÿÿÿÿ
+D
+java:S1185"(Remove this method to simply inherit it.(Ã•Œƒüÿÿÿÿ
+D
+java:S1199‹/"-Extract this nested code block into a method.(­Ó–Ô
+I
+java:S1199‘"-Extract this nested code block into a method.(Î—­Šşÿÿÿÿ
+u
+java:S1488¾"_Immediately return this expression instead of assigning it to the temporary variable "builder".(«‰Ÿ~
+?
+java:S1185ÿ1"(Remove this method to simply inherit it.(§ß—¡
+s	java:S116–7"XRename this field "targetUserId_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã‚ò®ûÿÿÿÿ
+I
+java:S1199/"-Extract this nested code block into a method.(•€Éœıÿÿÿÿ
+l	java:S116×""VRename this field "moveToPosX_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢ûÖè
+D
+java:S1199™""-Extract this nested code block into a method.(­Ó–Ô
+u
+java:S1488ò"_Immediately return this expression instead of assigning it to the temporary variable "builder".(«‰Ÿ~
+v	java:S116ì"[Rename this field "userInfoBuilder_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ğâ®®ûÿÿÿÿ
+o
+java:S2975ÿ"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(Îõ¾Òûÿÿÿÿ
+?
+java:S1185•D"(Remove this method to simply inherit it.(§ß—¡
+D
+java:S1199·"-Extract this nested code block into a method.(­Ó–Ô
+D
+java:S1199ë"-Extract this nested code block into a method.(­Ó–Ô
+D
+java:S1185Ü?"(Remove this method to simply inherit it.(Ã•Œƒüÿÿÿÿ
+D
+java:S1185ƒ%"(Remove this method to simply inherit it.(Ã•Œƒüÿÿÿÿ
+D
+java:S1185Ñ
+"(Remove this method to simply inherit it.(ÑÍ“Ëûÿÿÿÿ
