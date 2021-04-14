@@ -8,6 +8,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.tinygame.herostory.cmdhandler.CmdHandlerFactory;
 import org.tinygame.herostory.cmdhandler.ICmdHandler;
+import org.tinygame.herostory.model.UserManager;
 import org.tinygame.herostory.msg.GameMsgProtocol;
 
 /**
@@ -56,27 +57,9 @@ public class GameMessageHandler extends SimpleChannelInboundHandler {
         }
         LOGGER.info("收到客户端消息,msg= {}", msg);
 
-        try {
-            ICmdHandler<?> cmdHandler = CmdHandlerFactory.create(msg.getClass());
-            if (null != cmdHandler) {
-                cmdHandler.handle(ctx, cast(msg));
-            }
-        } catch (Exception e) {
-            LOGGER.error(e.getMessage(), e);
-        }
+        MainThreadProcessor.getInstance().process(ctx, (GeneratedMessageV3) msg);
+
     }
 
-    /**
-     * 用一个方法欺骗一下编译器
-     *
-     * @param msg
-     * @param <TCmd>
-     * @return
-     */
-    private <TCmd extends GeneratedMessageV3> TCmd cast(Object msg) {
-        if (msg == null) {
-            return null;
-        }
-        return (TCmd) msg;
-    }
+
 }

@@ -3,6 +3,8 @@ package org.tinygame.herostory.cmdhandler;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.util.AttributeKey;
 import org.tinygame.herostory.Broadcaster;
+import org.tinygame.herostory.model.MoveState;
+import org.tinygame.herostory.model.UserManager;
 import org.tinygame.herostory.msg.GameMsgProtocol;
 
 /**
@@ -20,12 +22,23 @@ public class UserMoveToHandler implements ICmdHandler<GameMsgProtocol.UserMoveTo
         if (null == userId) {
             return;
         }
+        MoveState mvState = UserManager.getUserById(userId).moveState;
+        mvState.fromPosX = cmd.getMoveFromPosX();
+        mvState.fromPoxY = cmd.getMoveFromPosY();
+        mvState.toPosX = cmd.getMoveToPosX();
+        mvState.toPosY = cmd.getMoveToPosY();
+        mvState.startTime = System.currentTimeMillis();
 
         GameMsgProtocol.UserMoveToResult.Builder resultBuilder = GameMsgProtocol.UserMoveToResult.newBuilder();
         resultBuilder.setMoveUserId(userId);
-        resultBuilder.setMoveToPosX(cmd.getMoveToPosX());
-        resultBuilder.setMoveToPosY(cmd.getMoveToPosY());
+        resultBuilder.setMoveFromPosX(mvState.fromPosX);
+        resultBuilder.setMoveFromPosY(mvState.fromPoxY);
+        resultBuilder.setMoveStartTime(mvState.startTime);
+        resultBuilder.setMoveToPosX(mvState.toPosX);
+        resultBuilder.setMoveToPosY(mvState.toPosY);
+
         GameMsgProtocol.UserMoveToResult newResult = resultBuilder.build();
+
         Broadcaster.broadcast(newResult);
     }
 }

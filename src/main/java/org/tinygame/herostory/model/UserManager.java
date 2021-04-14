@@ -1,4 +1,4 @@
-package org.tinygame.herostory;
+package org.tinygame.herostory.model;
 
 import java.util.Collection;
 import java.util.concurrent.ConcurrentHashMap;
@@ -24,5 +24,9 @@ public final class UserManager {
 
     public static Collection<? extends User> listUsers() {
         return _userMap.values();
+    }
+
+    public static User getUserById(Integer userId) {
+        return _userMap.get(userId);
     }
 }
