@@ -117,3 +117,38 @@ moveToPosY: 44.172813
 [00:18:05,474] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= targetUserId: 4294967295
 
 [00:18:05,476] [INFO] MainThreadProcessor.process --> 收到客户端消息,msgClass = org.tinygame.herostory.msg.GameMsgProtocol$UserAttkCmd
+[01:18:09,177] [INFO] CmdHandlerFactory.init --> org.tinygame.herostory.cmdhandler.UserEntryCmdHandler@9cd48699 ==== class org.tinygame.herostory.msg.GameMsgProtocol$UserEntryCmd
+[01:18:09,183] [INFO] CmdHandlerFactory.init --> org.tinygame.herostory.cmdhandler.UserMoveToHandler@a186c560 ==== class org.tinygame.herostory.msg.GameMsgProtocol$UserMoveToCmd
+[01:18:09,185] [INFO] CmdHandlerFactory.init --> org.tinygame.herostory.cmdhandler.UserAttackHandler@2ed4202 ==== class org.tinygame.herostory.msg.GameMsgProtocol$UserAttkCmd
+[01:18:09,186] [INFO] CmdHandlerFactory.init --> org.tinygame.herostory.cmdhandler.WhoElseIsHereHandler@6f5e58a8 ==== class org.tinygame.herostory.msg.GameMsgProtocol$WhoElseIsHereCmd
+[01:18:09,187] [INFO] CmdHandlerFactory.init --> org.tinygame.herostory.cmdhandler.UserLoginCmdHandler@22fb4fc0 ==== class org.tinygame.herostory.msg.GameMsgProtocol$UserLoginCmd
+[01:18:09,188] [INFO] GameMsgRecognizer.init --> ---------- 完成消息类与消息号的映射 ---------
+[01:18:09,977] [INFO] ServerMain.main --> 服务器启动成功
+[01:18:37,855] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= userName: "a"
+password: "1"
+
+[01:18:37,858] [INFO] MainThreadProcessor.process --> 收到客户端消息,msgClass = org.tinygame.herostory.msg.GameMsgProtocol$UserLoginCmd
+[01:18:37,918] [INFO] LoginService.lambda$userLogin$0 --> userLogin Thread = AsyncOperationProcessor
+[01:18:38,567] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= 
+[01:18:38,568] [INFO] MainThreadProcessor.process --> 收到客户端消息,msgClass = org.tinygame.herostory.msg.GameMsgProtocol$UserEntryCmd
+[01:18:38,574] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= 
+[01:18:38,575] [INFO] MainThreadProcessor.process --> 收到客户端消息,msgClass = org.tinygame.herostory.msg.GameMsgProtocol$WhoElseIsHereCmd
+[01:23:39,089] [INFO] CmdHandlerFactory.init --> org.tinygame.herostory.cmdhandler.WhoElseIsHereHandler@3f01b2e5 ==== class org.tinygame.herostory.msg.GameMsgProtocol$WhoElseIsHereCmd
+[01:23:39,102] [INFO] CmdHandlerFactory.init --> org.tinygame.herostory.cmdhandler.UserLoginCmdHandler@c41c8094 ==== class org.tinygame.herostory.msg.GameMsgProtocol$UserLoginCmd
+[01:23:39,104] [INFO] CmdHandlerFactory.init --> org.tinygame.herostory.cmdhandler.UserMoveToHandler@8ec03e90 ==== class org.tinygame.herostory.msg.GameMsgProtocol$UserMoveToCmd
+[01:23:39,105] [INFO] CmdHandlerFactory.init --> org.tinygame.herostory.cmdhandler.UserAttackHandler@84ceb088 ==== class org.tinygame.herostory.msg.GameMsgProtocol$UserAttkCmd
+[01:23:39,106] [INFO] CmdHandlerFactory.init --> org.tinygame.herostory.cmdhandler.UserEntryCmdHandler@e6012ecc ==== class org.tinygame.herostory.msg.GameMsgProtocol$UserEntryCmd
+[01:23:39,107] [INFO] GameMsgRecognizer.init --> ---------- 完成消息类与消息号的映射 ---------
+[01:23:40,082] [INFO] ServerMain.main --> 服务器启动成功
+[01:23:56,508] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= userName: "a"
+password: "1"
+
+[01:23:56,524] [INFO] MainThreadProcessor.process --> 收到客户端消息,msgClass = org.tinygame.herostory.msg.GameMsgProtocol$UserLoginCmd
+[01:23:56,551] [INFO] MainThreadProcessor.lambda$process$1 --> msg thread MainThreadProcessor
+[01:23:56,572] [INFO] LoginService.lambda$userLogin$0 --> userLogin Thread = AsyncOperationProcessor
+[01:23:57,197] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= 
+[01:23:57,199] [INFO] MainThreadProcessor.process --> 收到客户端消息,msgClass = org.tinygame.herostory.msg.GameMsgProtocol$UserEntryCmd
+[01:23:57,201] [INFO] MainThreadProcessor.lambda$process$1 --> msg thread MainThreadProcessor
+[01:23:57,208] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= 
+[01:23:57,216] [INFO] MainThreadProcessor.process --> 收到客户端消息,msgClass = org.tinygame.herostory.msg.GameMsgProtocol$WhoElseIsHereCmd
+[01:23:57,223] [INFO] MainThreadProcessor.lambda$process$1 --> msg thread MainThreadProcessor

@@ -48,6 +48,7 @@ public final class MainThreadProcessor {
         Class<? extends GeneratedMessageV3> msgClass = msg.getClass();
         LOGGER.info("收到客户端消息,msgClass = {}", msgClass.getName());
         es.submit(() -> {
+            LOGGER.info("msg thread {}", Thread.currentThread().getName());
             try {
                 ICmdHandler<?> cmdHandler = CmdHandlerFactory.create(msgClass);
                 if (null == cmdHandler) {

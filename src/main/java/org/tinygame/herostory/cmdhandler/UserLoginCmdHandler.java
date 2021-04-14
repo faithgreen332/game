@@ -27,32 +27,34 @@ public class UserLoginCmdHandler implements ICmdHandler<GameMsgProtocol.UserLogi
         }
 
         // 获取用户实体
-        UserEntity userEntity = LoginService.getInstance().userLogin(userName, password);
 
-        GameMsgProtocol.UserLoginResult.Builder resultBuilder = GameMsgProtocol.UserLoginResult.newBuilder();
-        if (null == userEntity) {
-            resultBuilder.setUserId(-1);
-            resultBuilder.setUserName("");
-            resultBuilder.setHeroAvatar("");
-        } else {
+        // 第三个参数就是一个回调函数，即观察者模式
+        LoginService.getInstance().userLogin(userName, password,(userEntity) -> {
+            GameMsgProtocol.UserLoginResult.Builder resultBuilder = GameMsgProtocol.UserLoginResult.newBuilder();
+            if (null == userEntity) {
+                resultBuilder.setUserId(-1);
+                resultBuilder.setUserName("");
+                resultBuilder.setHeroAvatar("");
+            } else {
 
-            // 将用户加入字典
-            User newUser = new User();
-            newUser.userId = userEntity.userId;
-            newUser.userName = userEntity.userName;
-            newUser.heroAvatar = userEntity.heroAvatar;
-            newUser.currHp = 1000;
+                // 将用户加入字典
+                User newUser = new User();
+                newUser.userId = userEntity.userId;
+                newUser.userName = userEntity.userName;
+                newUser.heroAvatar = userEntity.heroAvatar;
+                newUser.currHp = 1000;
 
-            UserManager.addUser(newUser);
+                UserManager.addUser(newUser);
 
-            // 将用户 Id 附着到 Channel
-            ctx.channel().attr(AttributeKey.valueOf("userId")).set(userEntity.userId);
-            resultBuilder.setUserId(userEntity.userId);
-            resultBuilder.setUserName(userEntity.userName);
-            resultBuilder.setHeroAvatar(userEntity.heroAvatar);
-        }
-
-        GameMsgProtocol.UserLoginResult newResult = resultBuilder.build();
-        ctx.writeAndFlush(newResult);
+                // 将用户 Id 附着到 Channel
+                ctx.channel().attr(AttributeKey.valueOf("userId")).set(userEntity.userId);
+                resultBuilder.setUserId(userEntity.userId);
+                resultBuilder.setUserName(userEntity.userName);
+                resultBuilder.setHeroAvatar(userEntity.heroAvatar);
+            }
+            GameMsgProtocol.UserLoginResult newResult = resultBuilder.build();
+            ctx.writeAndFlush(newResult);
+            return null;
+        });
     }
 }
