@@ -17,6 +17,5 @@ public interface IAsyncOperation {
      */
     default void doFinish() {
 
-
     }
 }

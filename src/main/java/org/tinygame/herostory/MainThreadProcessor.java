@@ -76,5 +76,16 @@ public final class MainThreadProcessor {
         }
         return (TCmd) msg;
     }
+
+    /**
+     * 处理
+     * @param r
+     */
+    public void process (Runnable r){
+        if(r==null){
+            return;
+        }
+        es.submit(r);
+    }
 }
 

@@ -2,8 +2,9 @@ package org.tinygame.herostory.cmdhandler;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.util.AttributeKey;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.tinygame.herostory.login.LoginService;
-import org.tinygame.herostory.login.db.UserEntity;
 import org.tinygame.herostory.model.User;
 import org.tinygame.herostory.model.UserManager;
 import org.tinygame.herostory.msg.GameMsgProtocol;
@@ -13,6 +14,9 @@ import org.tinygame.herostory.msg.GameMsgProtocol;
  * CreatedAt: 2021/4/14 下午11:32
  */
 public class UserLoginCmdHandler implements ICmdHandler<GameMsgProtocol.UserLoginCmd> {
+
+    private static final Logger LOGGER = LoggerFactory.getLogger(UserLoginCmdHandler.class);
+
     @Override
     public void handle(ChannelHandlerContext ctx, GameMsgProtocol.UserLoginCmd cmd) {
         if (ctx == null || cmd == null) {
@@ -25,12 +29,14 @@ public class UserLoginCmdHandler implements ICmdHandler<GameMsgProtocol.UserLogi
         if (userName == null || password == null) {
             return;
         }
-
+        LOGGER.info("UserLoginCmdHandler thread {}", Thread.currentThread().getName());
         // 获取用户实体
 
         // 第三个参数就是一个回调函数，即观察者模式
-        LoginService.getInstance().userLogin(userName, password,(userEntity) -> {
+        LoginService.getInstance().userLogin(userName, password, (userEntity) -> {
             GameMsgProtocol.UserLoginResult.Builder resultBuilder = GameMsgProtocol.UserLoginResult.newBuilder();
+
+            LOGGER.info("logService thread {}", Thread.currentThread().getName());
             if (null == userEntity) {
                 resultBuilder.setUserId(-1);
                 resultBuilder.setUserName("");
