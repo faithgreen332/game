@@ -7,6 +7,8 @@ package org.tinygame.herostory.async;
  */
 public interface IAsyncOperation {
 
+    int getBindId();
+
     /**
      * 执行异步操作
      */

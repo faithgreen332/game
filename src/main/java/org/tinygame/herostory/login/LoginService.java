@@ -34,6 +34,8 @@ public final class LoginService {
         }
 
         AsyncGetEntity oge = new AsyncGetEntity(userName, password) {
+
+
             // 这里肯定能拿到 userEntity
             @Override
             public void doFinish() {
@@ -50,6 +52,11 @@ public final class LoginService {
         private final String _password;
 
         private UserEntity _userEntity;
+
+        @Override
+        public int getBindId() {
+            return _userName.charAt(_userName.length() - 1);
+        }
 
         public AsyncGetEntity(String _userName, String _password) {
             this._userName = _userName;

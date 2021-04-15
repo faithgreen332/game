@@ -225,3 +225,38 @@ password: "1"
 [01:48:15,508] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= 
 [01:48:15,532] [INFO] MainThreadProcessor.process --> 收到客户端消息,msgClass = org.tinygame.herostory.msg.GameMsgProtocol$WhoElseIsHereCmd
 [01:48:15,546] [INFO] MainThreadProcessor.lambda$process$1 --> msg thread MainThreadProcessor
+[09:24:08,761] [INFO] CmdHandlerFactory.init --> org.tinygame.herostory.cmdhandler.UserLoginCmdHandler@a3e776a6 ==== class org.tinygame.herostory.msg.GameMsgProtocol$UserLoginCmd
+[09:24:08,765] [INFO] CmdHandlerFactory.init --> org.tinygame.herostory.cmdhandler.UserAttackHandler@cc240cf0 ==== class org.tinygame.herostory.msg.GameMsgProtocol$UserAttkCmd
+[09:24:08,767] [INFO] CmdHandlerFactory.init --> org.tinygame.herostory.cmdhandler.UserMoveToHandler@c0aa8e5e ==== class org.tinygame.herostory.msg.GameMsgProtocol$UserMoveToCmd
+[09:24:08,769] [INFO] CmdHandlerFactory.init --> org.tinygame.herostory.cmdhandler.UserEntryCmdHandler@5956cea5 ==== class org.tinygame.herostory.msg.GameMsgProtocol$UserEntryCmd
+[09:24:08,771] [INFO] CmdHandlerFactory.init --> org.tinygame.herostory.cmdhandler.WhoElseIsHereHandler@bb7506f6 ==== class org.tinygame.herostory.msg.GameMsgProtocol$WhoElseIsHereCmd
+[09:24:08,772] [INFO] GameMsgRecognizer.init --> ---------- 完成消息类与消息号的映射 ---------
+[09:24:09,357] [INFO] ServerMain.main --> 服务器启动成功
+[09:24:20,893] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= userName: "a"
+password: "1"
+
+[09:24:20,894] [INFO] MainThreadProcessor.process --> 收到客户端消息,msgClass = org.tinygame.herostory.msg.GameMsgProtocol$UserLoginCmd
+[09:24:20,896] [INFO] MainThreadProcessor.lambda$process$1 --> msg thread MainThreadProcessor
+[09:24:20,898] [INFO] UserLoginCmdHandler.handle --> UserLoginCmdHandler thread MainThreadProcessor
+[09:24:20,907] [INFO] LoginService$AsyncGetEntity.doAsync --> doAsync thread AsyncOperationProcess [ 1 ]
+[09:24:21,182] [INFO] UserLoginCmdHandler.lambda$handle$0 --> logService thread MainThreadProcessor
+[09:24:21,644] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= 
+[09:24:21,644] [INFO] MainThreadProcessor.process --> 收到客户端消息,msgClass = org.tinygame.herostory.msg.GameMsgProtocol$UserEntryCmd
+[09:24:21,645] [INFO] MainThreadProcessor.lambda$process$1 --> msg thread MainThreadProcessor
+[09:24:21,650] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= 
+[09:24:21,653] [INFO] MainThreadProcessor.process --> 收到客户端消息,msgClass = org.tinygame.herostory.msg.GameMsgProtocol$WhoElseIsHereCmd
+[09:24:21,656] [INFO] MainThreadProcessor.lambda$process$1 --> msg thread MainThreadProcessor
+[09:24:41,379] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= userName: "b"
+password: "2"
+
+[09:24:41,380] [INFO] MainThreadProcessor.process --> 收到客户端消息,msgClass = org.tinygame.herostory.msg.GameMsgProtocol$UserLoginCmd
+[09:24:41,381] [INFO] MainThreadProcessor.lambda$process$1 --> msg thread MainThreadProcessor
+[09:24:41,382] [INFO] UserLoginCmdHandler.handle --> UserLoginCmdHandler thread MainThreadProcessor
+[09:24:41,384] [INFO] LoginService$AsyncGetEntity.doAsync --> doAsync thread AsyncOperationProcess [ 2 ]
+[09:24:41,392] [INFO] UserLoginCmdHandler.lambda$handle$0 --> logService thread MainThreadProcessor
+[09:24:41,502] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= 
+[09:24:41,503] [INFO] MainThreadProcessor.process --> 收到客户端消息,msgClass = org.tinygame.herostory.msg.GameMsgProtocol$UserEntryCmd
+[09:24:41,503] [INFO] MainThreadProcessor.lambda$process$1 --> msg thread MainThreadProcessor
+[09:24:41,504] [INFO] GameMessageHandler.channelRead0 --> 收到客户端消息,msg= 
+[09:24:41,504] [INFO] MainThreadProcessor.process --> 收到客户端消息,msgClass = org.tinygame.herostory.msg.GameMsgProtocol$WhoElseIsHereCmd
+[09:24:41,505] [INFO] MainThreadProcessor.lambda$process$1 --> msg thread MainThreadProcessor
